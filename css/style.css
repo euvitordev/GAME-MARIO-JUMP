@@ -5,8 +5,32 @@
 }
 
 .game-board {
+    position: relative;
     width: 80%;
     height: 500px;
     border: 1px solid #333333;
     margin: 0 auto;
+    overflow: hidden;
+}
+
+.pipe {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    animation: pipe-animation 3s infinite linear;
+}
+
+.mario {
+    position: absolute;
+    width: 200px;
+    bottom: 0;
+}
+
+@keyframes pipe-animation {
+    from {
+        right: -80px;
+    }
+    to {
+        right: 100%;
+    }
 }
