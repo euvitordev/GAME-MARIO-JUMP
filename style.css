@@ -47,16 +47,6 @@
     background: linear-gradient(#765345, #9c7363);
 }
 
-.fundo p {
-    display: flex;
-    position: absolute;
-    color: #f1f1f1;
-    bottom: 20px;
-    align-items: center;
-    justify-content: center;
-    
-}
-
 @keyframes clouds-animation {
     from {
         right: -550px;
